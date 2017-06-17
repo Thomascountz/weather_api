@@ -1,7 +1,7 @@
 require './spec_helper'
 
 RSpec.describe 'dark sky', vcr: { record: :once } do
-	let(:new_york) { DarkSky.new('40.7128','74.0059') }
+  let(:new_york) { DarkSky.new('40.7128', '74.0059') }
 
   context 'when making a valid API request' do
     it 'returns with a status of OK' do
