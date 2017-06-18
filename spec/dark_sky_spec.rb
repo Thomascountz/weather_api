@@ -1,6 +1,6 @@
 require './spec_helper'
 
-RSpec.describe 'dark sky', vcr: { record: :once } do
+RSpec.describe 'dark sky', :vcr do
   let(:new_york) { DarkSky.new('40.7128', '74.0059') }
 
   context 'when making a valid API request' do
