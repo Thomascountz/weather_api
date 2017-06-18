@@ -4,18 +4,18 @@ A study in SOLID design and external API querying [Powered by Dark Sky](https://
 # Set Up
 You need to register for an API key [here](https://darksky.net/devs/docs).
 
-Once you do, add a file called `application.rb` in the project's root directory and add this line:
+Once you do, add a file called `application.rb` in the project's root directory, then add this line:
 ```
 # ./application.rb
 DARKSKY_API_KEY = '<YOUR DARK SKY API KEY HERE>'.freeze
 ```
 Download the dependencies:
 ```
-bundle
+$ bundle
 ```
 Run the specs:
 ```
-rspec
+$ rspec
 ```
 # Usage
 ```
