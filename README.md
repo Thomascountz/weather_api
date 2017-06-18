@@ -1,9 +1,9 @@
 # weather_api
-A study in SOLID design and external API querying
-[Powered by Dark Sky](https://darksky.net/poweredby/)
+A study in SOLID design and external API querying [Powered by Dark Sky](https://darksky.net/poweredby/).
 
 # Set Up
-You need to register for an API key [here](https://darksky.net/devs/docs)
+You need to register for an API key [here](https://darksky.net/devs/docs).
+
 Once you do, add a file called `application.rb` in the project's root directory and add this line:
 ```
 # ./application.rb
