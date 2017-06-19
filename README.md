@@ -19,7 +19,7 @@ $ rspec
 ```
 # Usage
 ```
-new_york = DarkSky.new('40.7128', '74.0059')
+new_york = DarkSky.new(latitude: '40.7128', longitude: '74.0059')
 new_york.forecast
 #=> <HTTParty::Response>
 ```
