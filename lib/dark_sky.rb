@@ -3,7 +3,7 @@ require_relative '../application.rb'
 
 # Wrapper for Dark Sky's Forecast API
 class DarkSky
-  attr_accessor :location, :forecast
+  attr_accessor :location, :response
 
   include HTTParty
   base_uri 'https://api.darksky.net/forecast'
@@ -15,11 +15,7 @@ class DarkSky
   end
 
   def forecast
-    @forecast ||= DarkSky.fetch(self)
-  end
-
-  def self.fetch(darksky)
-  	get(darksbuild_path)
+    @response ||= DarkSky.get(build_path)
   end
 
   Location = Struct.new(:latitude, :longitude)
