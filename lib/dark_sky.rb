@@ -15,11 +15,7 @@ class DarkSky
   end
 
   def forecast
-    @forecast ||= DarkSky.fetch(self)
-  end
-
-  def self.fetch(darksky)
-  	get(darksbuild_path)
+    @forecast ||= DarkSky.get(build_path)
   end
 
   Location = Struct.new(:latitude, :longitude)
