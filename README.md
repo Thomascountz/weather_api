@@ -28,4 +28,4 @@ new_york.forecast
 
 # Project Details
 
-Read more about the purpose and process behind this project on my blog, [here](https://thomascountz.github.io/2017/06/17/iterating-through-an-api-wrapper.html)!
+Read more about the purpose and process behind this project on my blog, [here](https://medium.com/@thomascountz/learning-how-to-read-the-weather-with-sandi-metz-62553be9e82e)!
